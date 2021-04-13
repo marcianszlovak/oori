@@ -2,13 +2,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MaterialModule } from '../material/material.module';
 
-
-
 @NgModule({
   declarations: [],
-  imports: [
-    CommonModule,
-    MaterialModule
-  ]
+  imports: [CommonModule, MaterialModule],
+  exports: [MaterialModule],
 })
-export class LayoutsModule { }
+export class LayoutsModule {}

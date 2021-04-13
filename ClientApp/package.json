@@ -46,6 +46,7 @@
     "karma-coverage-istanbul-reporter": "~2.1.0",
     "karma-jasmine": "~2.0.1",
     "karma-jasmine-html-reporter": "^1.5.4",
+    "prettier": "^2.2.1",
     "typescript": "4.0.7"
   },
   "optionalDependencies": {
