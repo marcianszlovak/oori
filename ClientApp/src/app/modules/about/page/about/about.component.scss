@@ -1,16 +1,24 @@
 .container {
   display: flex;
   align-items: center;
-  margin-top: auto;
   justify-content: center;
   height: 100vh;
+  text-align: center;
 
   .row {
+    .mat-h1 {
+      text-align: left;
+    }
+
     p {
       text-align: justify;
     }
 
-    width: 65%;
+    img {
+      width: 100%;
+    }
+
+    width: 65vw;
     height: 65vh;
 
     .mat-divider {
