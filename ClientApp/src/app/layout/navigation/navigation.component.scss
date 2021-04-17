@@ -21,9 +21,9 @@
 
 .mat-toolbar.mat-primary {
   height: 82px;
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 .nav-header {
@@ -31,10 +31,8 @@
   flex-direction: column;
   //padding: 0 0 0 20px;
 
-  .main-header {
-  }
-
-  .sub-header {
-    font-size: small;
+  .mat-h2,
+  .mat-h3 {
+    margin: 0;
   }
 }

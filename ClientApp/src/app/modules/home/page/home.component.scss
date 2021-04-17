@@ -1,0 +1,43 @@
+.temp {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+
+  .row {
+  }
+
+  .header {
+    font-size: calc(1vw + 1vh + 1vmin);
+    margin: 0 0 5vh 0;
+    text-align: center;
+    display: flex;
+
+    @media screen and (max-width: 600px) {
+      font-size: 20px;
+    }
+  }
+
+  .mat-list {
+    display: flex;
+
+    .mat-list-avatar {
+      height: 80px;
+      width: 80px;
+      padding: 0 28.5px 0 28.5px;
+
+      @media screen and (max-width: 600px) {
+        height: 40px;
+        width: 40px;
+        padding: 0;
+      }
+    }
+  }
+}

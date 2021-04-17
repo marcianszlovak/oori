@@ -1,12 +1,10 @@
 .container {
   display: flex;
   align-items: center;
-  //justify-content: center;
+  justify-content: center;
   flex-direction: column;
-  height: 100vh;
 
   .row {
-    margin-top: 10vh;
     text-align: justify;
     width: 65%;
 
