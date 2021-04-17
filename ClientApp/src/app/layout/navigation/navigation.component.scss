@@ -1,0 +1,40 @@
+.mat-drawer-container {
+  height: 100vh;
+}
+
+.sidenav {
+  width: 200px;
+  //background-color: #f2f2f2;
+  margin-top: 82px;
+
+  .mat-list-item {
+    color: rgba(0, 0, 0, 0.65);
+  }
+}
+
+.mat-list-base {
+  overflow: hidden;
+}
+
+.sidenav .mat-toolbar {
+}
+
+.mat-toolbar.mat-primary {
+  height: 82px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.nav-header {
+  display: flex;
+  flex-direction: column;
+  //padding: 0 0 0 20px;
+
+  .main-header {
+  }
+
+  .sub-header {
+    font-size: small;
+  }
+}
