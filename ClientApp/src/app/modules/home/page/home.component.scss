@@ -12,6 +12,10 @@
   width: 100%;
 
   .row {
+    width: 50vw;
+    @media screen and (max-width: 600px) {
+      width: 100vw;
+    }
   }
 
   .header {
@@ -27,11 +31,21 @@
 
   .mat-list {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .mat-list-item {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      width: 10vw;
+    }
 
     .mat-list-avatar {
       height: 80px;
       width: 80px;
-      padding: 0 28.5px 0 28.5px;
 
       @media screen and (max-width: 600px) {
         height: 40px;
