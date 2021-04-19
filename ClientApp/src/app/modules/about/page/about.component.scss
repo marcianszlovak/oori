@@ -1,28 +1,21 @@
 .container {
+  height: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
-  height: 100vh;
-  text-align: center;
 
   .row {
-    .mat-h1 {
-      text-align: left;
-    }
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    text-align: justify;
+  }
 
-    p {
-      text-align: justify;
-    }
+  .mat-divider {
+    margin: 0 0 16px 0;
+  }
 
-    img {
-      width: 100%;
-    }
-
-    width: 65vw;
-    height: 65vh;
-
-    .mat-divider {
-      margin: 0 0 16px 0;
-    }
+  img {
+    margin: auto;
+    width: 75%;
   }
 }
