@@ -9,8 +9,11 @@
   .row {
     display: flex;
     flex-direction: column;
-    width: 75%;
     text-align: justify;
+    width: 75%;
+    @media screen and (max-width: 1000px) {
+      width: 100%;
+    }
   }
 
   .mat-divider {
