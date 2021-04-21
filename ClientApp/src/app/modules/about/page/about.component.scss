@@ -2,6 +2,9 @@
   height: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  //margin: 8.13vh 0 0 0;
+  padding: 20px 70px 0;
 
   .row {
     display: flex;
@@ -16,6 +19,6 @@
 
   img {
     margin: auto;
-    width: 75%;
+    width: 55.5%;
   }
 }

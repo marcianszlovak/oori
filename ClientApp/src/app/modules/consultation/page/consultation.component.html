@@ -1,2 +1,64 @@
-<app-page-header [text]="text"></app-page-header>
-<div class="container"></div>
+<div class="main">
+  <app-page-header [text]="text" style="width: 100%"></app-page-header>
+
+  <div class="container">
+    <div class="row">
+      <h1 class="mat-h1">Betegfelvétel</h1>
+      <mat-divider></mat-divider>
+
+      <h3 class="mat-h3">
+        Csak előzetes ambuláns vagy szakorvosi rendelőintézeti vizsgálatot
+        követően lehetséges, beutalóval.
+      </h3>
+
+      <h1 matLine class="mat-h1">Ambuláns rendelés</h1>
+      <mat-divider></mat-divider>
+      <h3 class="mat-h3">
+        Az ambuláns vizsgálat előjegyzés alapján történik, beutaló szükséges.
+      </h3>
+
+      <mat-list style="padding: 0">
+        <h1 matLine class="mat-h1">Az ambuláns rendelést végző orvosok</h1>
+        <mat-divider></mat-divider>
+
+        <mat-list-item>
+          <mat-icon matListIcon>access_time</mat-icon>
+
+          <p>Dr. Szlovák Sándor: péntek: 9-13.30 óra</p>
+        </mat-list-item>
+        <mat-list-item>
+          <mat-icon matListIcon>access_time</mat-icon>
+          <p>Dr. Bölcsházy Zoltán: péntek: 9-13.30 óra</p>
+        </mat-list-item>
+        <mat-list-item>
+          <mat-icon matListIcon>access_time</mat-icon>
+          <p>Dr. Kollár Iván: péntek 9-13:30 óra</p>
+        </mat-list-item>
+        <mat-list-item>
+          <mat-icon matListIcon>access_time</mat-icon>
+          <p>Dr. Tompai Ferenc: hétfő 9-13:30 óra</p>
+        </mat-list-item>
+        <mat-list-item>
+          <mat-icon matListIcon>access_time</mat-icon>
+          <p>Dr. Vas Roland:hétfő: 10-14.30 óra</p>
+        </mat-list-item>
+      </mat-list>
+
+      <mat-divider></mat-divider>
+      <h3 class="mat-h3">
+        Bejelentkezni
+        <span style="font-weight: 401">kedd, szerda, csütörtök</span>
+        délelőtt a
+        <mat-icon inline> phone</mat-icon>
+        (+ 36 1) 391-1930, illetve a
+        <mat-icon inline> phone</mat-icon>
+        391-1900/12-45 telefonszámon lehet.
+      </h3>
+
+      <h3 class="mat-h3">
+        Az ambuláns rendelés helye: a központi épület földszinti ambulanciái (1,
+        2, 4, 5).
+      </h3>
+    </div>
+  </div>
+</div>

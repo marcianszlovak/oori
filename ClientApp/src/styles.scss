@@ -4,15 +4,15 @@ p {
 }
 
 .container {
-  //height: 100vh;
 }
 
 html,
 body {
-  height: 100vh;
+  height: 100%;
 }
 
 body {
   margin: 0;
+  background-color: #fafafa;
   font-family: Roboto, 'Helvetica Neue', sans-serif;
 }
