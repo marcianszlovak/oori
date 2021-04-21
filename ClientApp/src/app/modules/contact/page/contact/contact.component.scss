@@ -1,3 +1,16 @@
-div {
-  background-color: red;
+.container {
+  display: flex;
+  justify-content: center;
+  //align-items: center;
+
+  .content {
+    padding: 20px 70px 0;
+
+    .mat-h1 {
+      margin-top: 40px;
+    }
+    .mat-divider {
+      margin: 0 0 16px 0;
+    }
+  }
 }
